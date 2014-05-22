@@ -7,6 +7,9 @@
   * Copyright (c) 2003-2009 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
+  * With contributions from:
+  * 	- 2014 Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria
+  *
   * Localization strings for the en_US (U.S. English) locale.
   *
   * $Id: locale.xml,v 1.2.2.1 2009/04/08 19:43:09 asmecher Exp $
@@ -14,5 +17,5 @@
  
 <locale name="en_US" full_name="U.S. English">
 	<message key="plugins.block.normasAutores.displayName">Instructions for authors</message>
-	<message key="plugins.block.normasAutores.description">This plugin provides sidebar "Developed By" link.</message>
+	<message key="plugins.block.normasAutores.description">This plugin provides sidebar "Authors instructions" link.</message>
 </locale>

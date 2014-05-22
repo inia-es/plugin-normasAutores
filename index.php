@@ -1,17 +1,20 @@
 <?php
 
 /**
- * @defgroup plugins_blocks_developedBy
+ * @defgroup plugins_blocks_normasAutores
  */
  
 /**
- * @file plugins/blocks/developedBy/index.php
+ * @file plugins/blocks/normasAutores/index.php
  *
  * Copyright (c) 2003-2009 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @ingroup plugins_blocks_developedBy
- * @brief Wrapper for "developed by" block plugin.
+ * With contributions from:
+ * 	- 2014 Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria
+ *
+ * @ingroup plugins_blocks_normasAutores
+ * @brief Wrapper for "normas autores" block plugin.
  *
  */
 
