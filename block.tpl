@@ -7,10 +7,10 @@
  * With contributions from:
  * 	- 2014 Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria
  *
- * Common site sidebar menu -- "Normas Autores" block.
+ * Common site sidebar menu -- "Authors Instructions" block.
  *
  * $Id: block.tpl,v 1.3.2.1 2009/04/08 19:43:09 asmecher Exp $
  *}
-<div class="blockNormas" id="normasAutores">
-	<span class="blockNormas"><a href="{url page="about" op="submissions" anchor="authorGuidelines" }">{translate key="plugins.block.normasAutores.displayName"}</a></span><br>
+<div class="blockInstructions" id="authorsInstructions">
+	<span class="blockInstructions"><a href="{url page="about" op="submissions" anchor="authorGuidelines" }">{translate key="plugins.block.authorsInstructions.displayName"}</a></span><br>
 </div>	

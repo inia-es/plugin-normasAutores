@@ -16,6 +16,6 @@
   -->
  
 <locale name="es_ES" full_name="Español (España)">
-	<message key="plugins.block.normasAutores.displayName">Normas para autores</message>
-	<message key="plugins.block.normasAutores.description">Este Complemento poporciona una barra lateral con un vínculo a "Creado por".</message>
+	<message key="plugins.block.authorsInstructions.displayName">Normas para autores</message>
+	<message key="plugins.block.authorsInstructions.description">Este Complemento poporciona una barra lateral con un vínculo a "Creado por".</message>
 </locale>

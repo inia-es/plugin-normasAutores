@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file normasAutoresPluginBlock.inc.php
+ * @file authorsInstructionsPluginBlock.inc.php
  *
  * Copyright (c) 2003-2009 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
@@ -9,10 +9,10 @@
  * With contributions from:
  * 	- 2014 Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria
  *
- * @class normasAutoresBlockPlugin
- * @ingroup plugins_blocks_normasAutores
+ * @class authorsInstructionsBlockPlugin
+ * @ingroup plugins_blocks_authorsInstructions
  *
- * @brief Class for "normas autores" block plugin
+ * @brief Class for "authors instructions" block plugin
  */
 
 // $Id: DevelopedByBlockPlugin.inc.php,v 1.6.2.1 2009/04/08 19:43:09 asmecher Exp $
@@ -20,7 +20,7 @@
 
 import('plugins.BlockPlugin');
 
-class normasAutoresBlockPlugin extends BlockPlugin {
+class authorsInstructionsBlockPlugin extends BlockPlugin {
 	function register($category, $path) {
 		$success = parent::register($category, $path);
 		if ($success) {
@@ -87,7 +87,7 @@ class normasAutoresBlockPlugin extends BlockPlugin {
 	 * @return String name of plugin
 	 */
 	function getName() {
-		return 'normasAutoresBlockPlugin';
+		return 'authorsInstructionsBlockPlugin';
 	}
 
 	/**
@@ -95,14 +95,14 @@ class normasAutoresBlockPlugin extends BlockPlugin {
 	 * @return String
 	 */
 	function getDisplayName() {
-		return Locale::translate('plugins.block.normasAutores.displayName');
+		return Locale::translate('plugins.block.authorsInstructions.displayName');
 	}
 
 	/**
 	 * Get a description of the plugin.
 	 */
 	function getDescription() {
-		return Locale::translate('plugins.block.normasAutores.description');
+		return Locale::translate('plugins.block.authorsInstructions.description');
 	}
 }
 

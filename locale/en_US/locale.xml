@@ -16,6 +16,6 @@
   -->
  
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.block.normasAutores.displayName">Instructions for authors</message>
-	<message key="plugins.block.normasAutores.description">This plugin provides sidebar "Authors instructions" link.</message>
+	<message key="plugins.block.authorsInstructions.displayName">Instructions for authors</message>
+	<message key="plugins.block.authorsInstructions.description">This plugin provides sidebar "Authors instructions" link.</message>
 </locale>
